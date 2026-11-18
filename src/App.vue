@@ -15,6 +15,6 @@ const focusMain = () => document.getElementById('main')?.focus()
   <main id="main" tabindex="-1"><RouterView /></main>
   <footer class="foot">
     <span class="logo-sm">Kalypso</span>
-    <span>Φανταστική επιχείρηση · Τα ραντεβού δεν είναι πραγματικά · <RouterLink to="/staff" class="link">Προσωπικό</RouterLink><br />Σχεδιασμός και υλοποίηση: Βασίλειος Βαρβέρογλου · Οι φωτογραφίες είναι δημιουργημένες με AI και ενδεικτικές.</span>
+    <span>Φανταστική επιχείρηση · Τα ραντεβού δεν είναι πραγματικά · <RouterLink to="/staff" class="link">Προσωπικό</RouterLink> · <RouterLink to="/privacy" class="link">Απόρρητο και cookies</RouterLink><br />Σχεδιασμός και υλοποίηση: Βασίλειος Βαρβέρογλου · Οι φωτογραφίες είναι δημιουργημένες με AI και ενδεικτικές.</span>
   </footer>
 </template>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --ink: #141216; --soft: #4a4650; --mute: #6b6672; --lilac: #7a5bb5; --lilac-bg: #f4eefa; --lilac-2: #e6dcf5; font-family: 'Manrope', system-ui, sans-serif; color: var(--ink); background: #fff; }
+:root { --ink: #141216; --soft: #4a4650; --mute: #6b6672; --lilac: #7a5bb5; --lilac-bg: #f4eefa; --lilac-2: #e6dcf5; font-family: 'Manrope Variable', system-ui, sans-serif; color: var(--ink); background: #fff; }
 body { margin: 0; font-size: 1.04rem; line-height: 1.65; overflow-x: hidden; }
 a { color: inherit; text-decoration: none; }
 h1, h2, h3 { font-family: 'Cardo', Georgia, serif; font-weight: 400; line-height: .95; letter-spacing: -.02em; margin: 0; }
